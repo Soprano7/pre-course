@@ -1,11 +1,11 @@
-const randomNumber = Math.floor(Math.random(10000) * 100);
-const evenMsg = 'Это четное число';
-const oddMsg = 'Это нечетное число';
-if (randomNumber % 2 === 0) 
+const number1 = Math.floor(Math.random(10000) * 100);
+const evenMsg = 'четное число';
+const oddMsg = 'нечетное число';
+if (number1 % 2 === 0) 
 {
-    console.log(randomNumber, evenMsg); 
+    console.log(`${number1} :Это четное число`); 
 }
 else
 { 
-     console.log(randomNumber, oddMsg);
+    console.log(`${number1} :Это нечетное число`); 
 }
