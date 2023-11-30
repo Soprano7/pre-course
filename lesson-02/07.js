@@ -14,12 +14,10 @@ const petrMarried = {
     married: true,
     address: {
         ...passportMarried.address,
-        user: {
-            ...passportMarried.address.user
-        }
     }
 };
 
+console.log(passportMarried)
 console.log(petrMarried)
 
 
