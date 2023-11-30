@@ -11,3 +11,10 @@ let petrMarried = JSON.parse(JSON.stringify(passportMarried))
 
 newPassport['surname']['married'] = true;
 console.log(petrMarried)
+
+
+
+
+
+
+
