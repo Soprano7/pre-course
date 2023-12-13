@@ -5,12 +5,8 @@ const numbers = [
 ];
 
 const newArr = numbers.map(subArr => {
-    return subArr.map(number => {
-        if (number % 2 === 0) {
-            return number; 
-        }
+    return subArr.filter(number =>number % 2 === 0)
     });
-});
 console.log(newArr);
 
 
