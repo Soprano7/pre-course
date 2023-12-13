@@ -19,7 +19,3 @@ console.log(passportMarried2)
 
 
 
-
-
-
-
